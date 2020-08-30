@@ -8,11 +8,12 @@
     display: flex;
     justify-content: flex-end;
     top: 0%;
-    background-image: url("image\backgroundimg.jpg");
+    left: 0%;
+    background-image: url("../image/backgroundimg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position: absolute;
 }
 *.img{
     -webkit-filter: brightness(0.4);
@@ -22,7 +23,7 @@
     filter: brightness(0.4);
 }
 
-.nav{
+.nav .nav__list{
     color: #ffffff;
     display: flex;
     position: fixed;
@@ -35,9 +36,14 @@
     background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(35,35,35,1) 100%);
     height: auto;
     width: 100%;
-
 }
-nav{
+nav ul li{
     margin-right: 50px;
     font-size: 30px;
+    list-style-type: none;
 }
+a{color: white;}
+a:link {text-decoration: none}
+a:visited {text-decoration: none}
+a:active {text-decoration: none}
+a:hover {text-decoration: underline}
