@@ -47,3 +47,22 @@ a:link {text-decoration: none}
 a:visited {text-decoration: none}
 a:active {text-decoration: none}
 a:hover {text-decoration: underline}
+
+.footer{
+    width: 100%;
+    bottom: 0%;
+    align-self: flex-end;
+    background-color: #00000027;
+    height: 3.5vh;
+}
+
+.footer>span{
+    
+    color: red;
+}
+
+
+/*OFERTA*/
+.oferta .contain{
+    background-color: #0000000a;
+}
