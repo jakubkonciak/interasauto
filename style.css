@@ -1,0 +1,43 @@
+.body{
+    font-family: 'Anton', sans-serif;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    top: 0%;
+    background-image: url("backgroundimg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+*.img{
+    -webkit-filter: brightness(0.4);
+    -moz-filter: brightness(0.4);
+    -o-filter: brightness(0.4);
+    -ms-filter: brightness(0.4);
+    filter: brightness(0.4);
+}
+
+.nav{
+    color: #ffffff;
+    display: flex;
+    position: fixed;
+    right: 0;
+    top: 7%;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    background: rgb(31, 103, 185);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(35,35,35,1) 100%);
+    height: auto;
+    width: 100%;
+
+}
+nav{
+    margin-right: 50px;
+    font-size: 30px;
+}
