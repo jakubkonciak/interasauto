@@ -6,7 +6,7 @@
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
     top: 0%;
     left: 0%;
     background-image: url("../image/backgroundimg.jpg");
@@ -56,13 +56,14 @@ a:hover {text-decoration: underline}
     height: 3.5vh;
 }
 
-.footer>span{
-    
-    color: red;
+.oferta-contain>span{
+    color: black;
 }
 
 
 /*OFERTA*/
-.oferta .contain{
-    background-color: #0000000a;
+div.oferta-contain{
+    filter: brightness(80%);
+    height: 100%;
+    z-index: -1;
 }
