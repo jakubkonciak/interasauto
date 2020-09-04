@@ -37,8 +37,7 @@
     justify-content: flex-end;
     align-items: center;
     font-family: 'Anton', sans-serif;
-    background: rgb(31, 103, 185);
-    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(35,35,35,1) 100%);
+    background: linear-gradient(90deg, rgba(17, 17, 17, 0.185) 0%, rgba(35,35,35,1) 100%);
     height: auto;
     width: 100%;
 }
@@ -55,15 +54,16 @@ a:hover {text-decoration: underline}
 
 .footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(24, 24, 24, 0.486);
+    background-color: rgb(17, 17, 17);
     height: 4.5vh;
-    color: white;
+    color: rgb(117, 53, 0);
 }
 .pic-phone{
     height: 3vh;
 }
+
 
 .oferta-contain>span{
     color: black; 
@@ -73,6 +73,9 @@ a:hover {text-decoration: underline}
     margin-left: 10px;
 }
 
+i{
+    color: rgb(160, 160, 160);
+}
 
 /*OFERTA*/
 div.oferta-contain{
