@@ -7,9 +7,14 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     top: 0%;
     left: 0%;
-    background-image: url("../image/backgroundimg.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../image/backgroundimg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,15 +54,23 @@ a:active {text-decoration: none}
 a:hover {text-decoration: underline}
 
 .footer{
-    width: 100%;
-    bottom: 0%;
-    align-self: flex-end;
-    background-color: #00000027;
-    height: 3.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(24, 24, 24, 0.486);
+    height: 4.5vh;
+    color: white;
+}
+.pic-phone{
+    height: 3vh;
 }
 
 .oferta-contain>span{
-    color: black;
+    color: black; 
+}
+
+.mail-footer{
+    margin-left: 10px;
 }
 
 
